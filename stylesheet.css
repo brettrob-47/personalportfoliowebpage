@@ -1,0 +1,146 @@
+
+
+#logo{width: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    
+    
+    
+    
+    #navbar{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    justify-content:flex-end;
+    font-family:"calibri";
+    font-style: normal;
+    font-weight: 300;
+    position: fixed; 
+    top: 0; 
+    background-color:darkcyan;
+    color:rgb(247, 239, 239);
+    }
+    
+    .navlist{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    list-style-type: none ;}
+    
+    .navlist a{
+    
+    display: block;
+    font-size: 1.5em;
+    padding: .5em;
+    color:rgb(247, 239, 239);
+    }
+    
+    .navlist a:hover{
+    transform:translateY(-4px);
+    
+    }
+    
+    *{margin: 0;
+    padding: 0;}
+    
+    #welcome-section {
+    height: 100vh;
+    padding:0px;
+    margin:0px;
+    background-color:#299667;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items : center;
+    color: #ffff;
+    font-family:"calibri";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;}
+    
+    #middle {
+        max-height: 800px;
+        background-color:#299667;
+        width:100%;
+        display:flex;
+        flex-direction:horizontal;
+        justify-content: space-around;
+    }
+    #third{ max-height: 800px;
+        width:100%;
+        display:flex;
+        flex-direction:horizontal;
+        justify-content: space-evenly;
+        
+        }
+    
+    .project-tile{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .project-title{
+        text-decoration: none;
+    }
+    figure{margin:1rem;
+    }
+    
+    html{box-sizing: border-box;
+    
+     }
+    figcaption{text-align: center;}
+    
+    #contact{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color:darkcyan;
+        color:#ffff;
+        height: 25px;}
+    
+        #profile-link{ 
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            
+            background-color:darkcyan;
+            color:white;
+            height: 25px;}
+    
+    #footerlogo{
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        justify-content: stretch;
+
+        height: 50px;
+    
+    }
+    #icons{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        background-color:darkcyan;
+    }
+    #ig{width:50px;}
+
+    h2{ font-family:"calibri";}
+        
+    
+    
+        
+        
+       
+    
+    
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+    
+    
